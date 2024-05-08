@@ -1,0 +1,12 @@
+1ra respuesta -> Ver que se carga en el navegador 
+
+2da respuesta -> Deshabilitar el bootstrapls 
+
+
+
+--- 
+
+pruebas
+
+Ok, funciono los estilos eliminado bootstrap, pero lo requiero
+Sigue sin funcionar el js

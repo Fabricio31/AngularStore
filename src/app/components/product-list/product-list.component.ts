@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/common/product';
 import { ProductService } from 'src/app/services/product.service';
-import { SwiperModule } from 'swiper/angular';
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 @Component({
   selector: 'app-product-list',
